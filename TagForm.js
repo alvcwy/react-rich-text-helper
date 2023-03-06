@@ -64,10 +64,6 @@ function TagForm() {
           <i>Italic</i>
         </label>
         <label>
-          <input type="radio" value="<u></u>" checked={selectedTag === "<u></u>"} onChange={handleTagChange} />
-          <u>Underline</u>
-        </label>
-        <label>
           <input type="radio" value="<size=50></size>" checked={selectedTag === "<size=50></size>"} onChange={handleTagChange} />
           <span style={{ fontSize: "50px" }}>Large</span>
         </label>
