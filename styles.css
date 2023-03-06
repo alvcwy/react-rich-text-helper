@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  margin: 10px;
+}
+
+hr {
+    margin: 30px;
+    color: lightgrey;
+}
+
+#root {
+  margin-bottom: 50px;
+}
+
+input {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+/* Wider text box */
+input[type=text] {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+/* Larger radio buttons */
+input[type='radio'] { 
+    transform: scale(1.5); 
+}
+
+/* Have images display on same row */
+#showcase {
+  display: flex;
+  justify-content: center; /* Adjust this as needed */
+  align-items: center; /* Adjust this as needed */
+  margin-left: 30px;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}

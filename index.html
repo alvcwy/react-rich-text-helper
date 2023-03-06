@@ -1,0 +1,60 @@
+<!-- TODO: host on netlify -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Unite Rich Text Helper</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" >
+  </head>
+  <body>
+    <h1>Unite Rich Text Helper</h1>
+    <p>
+        Stylize your username or in game chat with tags in Pokemon Unite!
+        <br>
+        Some tags can be used together, for example the color and size tag. 
+        <br>
+        (note that usernames have a character limit of 12 and your username in matches will not be stylized)
+    </p>
+
+    <!-- Div for React to render HTML in -->
+    <div id="root"></div>
+
+    <hr>
+
+    <div id="showcase">
+      <figure>
+        <img src="./images/blue.jpg" width="100%">
+        <figcaption>&lt;a&gt;Joshu&lt;/a&gt; for blue username</figcaption>
+      </figure> 
+      <figure>
+        <img src="./images/bruh.webp" width="80%">
+        <figcaption>lmao (quad, large, color)</figcaption>
+      </figure>
+      <figure>
+        <img src="./images/quad.jpg" width="60%">
+        <figcaption>&lt;quad&gt;&lt;quad&gt; for MissingNo username</figcaption>
+      <figure>
+    </div>
+
+    <hr>
+
+    <h3>Credits</h3>
+    <p>
+      Made by <a href="https://www.reddit.com/user/A1v1/">chonking</a>, chonker enthusiast<br>
+      (please don't ask me about mobile responsiveness)<br><br>
+      <a href="https://www.reddit.com/user/Joshu-Vah12">Joshu-Vah12</a>, solo queue enjoyer <br>
+      <a href="https://www.reddit.com/user/MaoAankh/">MaoAankh</a>, quad tag abuser<br>
+      <a href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/StyledText.html">Unity Rich Text</a> <br> <br>
+    </p>
+    <img src="./images/yurutto.png" alt="Chonker" width="200"> 
+
+    <!-- React -->
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="./TagForm.js" type="text/babel"></script>
+  </body>
+</html>
